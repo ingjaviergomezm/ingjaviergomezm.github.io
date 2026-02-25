@@ -4,17 +4,19 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portafolio de Javier GÃ³mez M â€” IngenierÃ­a, AnalÃ­tica de Datos e IA aplicada." />
-  <title>Javier GÃ³mez M â€” Portafolio</title>
+  <meta name="description"
+    content="Portafolio de Javier Gómez M — Ingeniería, Analítica de Datos e IA Agéntica aplicada." />
+  <title>Javier Gómez M — Portafolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <canvas id="particle-canvas"></canvas>
   <div class="bg"></div>
   <div class="grid-overlay" aria-hidden="true"></div>
   <div class="noise" aria-hidden="true"></div>
@@ -24,7 +26,6 @@
       <div class="nav__monogram" aria-hidden="true">JG</div>
       <span class="nav__title">ingjaviergomezm</span>
     </div>
-
     <nav class="nav__links">
       <a href="#proyectos">Proyectos</a>
       <a href="#stack">Stack</a>
@@ -42,12 +43,12 @@
         </div>
 
         <h1>
-          <span class="glitch" data-text="Javier GÃ³mez M">Javier GÃ³mez M</span>
+          <span class="glitch" data-text="Javier Gómez M">Javier Gómez M</span>
         </h1>
 
         <p class="subtitle">
-          Ingeniero Industrial enfocado en <strong>confiabilidad</strong>, <strong>eficiencia energÃ©tica</strong> y
-          <strong>analÃ­tica aplicada</strong> en Oil & Gas, energÃ­a y renovables.
+          Ingeniero Industrial enfocado en <strong>confiabilidad</strong>, <strong>eficiencia energética</strong> y
+          <strong>IA agéntica aplicada</strong> en Oil &amp; Gas, energía y renovables.
         </p>
 
         <div class="cta">
@@ -58,8 +59,9 @@
 
         <div class="meta">
           <span class="tag">Colombia</span>
-          <span class="tag">Oil & Gas</span>
-          <span class="tag">EnergÃ­a/Renovables</span>
+          <span class="tag">Oil &amp; Gas</span>
+          <span class="tag">Energía / Renovables</span>
+          <span class="tag">IA Agéntica</span>
         </div>
       </div>
 
@@ -72,21 +74,21 @@
           </div>
           <div class="card__body">
             <p class="mono dim">STATUS</p>
-            <p class="mono">ONLINE â€¢ BUILDING PORTFOLIO</p>
+            <p class="mono">ONLINE &bull; PORTAFOLIO ACTIVO</p>
             <div class="divider"></div>
 
-            <p class="mono dim">FOCO</p>
+            <p class="mono dim">ESPECIALIDADES</p>
             <ul class="list">
-              <li>AnalÃ­tica para decisiones operativas</li>
-              <li>Eficiencia energÃ©tica & renovables</li>
-              <li>AutomatizaciÃ³n (Excel/VBA)</li>
+              <li>Analítica operativa &amp; Business Intelligence</li>
+              <li>IA Agéntica aplicada (Antigravity / Gemini)</li>
+              <li>Eficiencia energética &amp; renovables</li>
             </ul>
 
             <div class="divider"></div>
 
             <p class="mono dim">CONTACTO</p>
             <p class="mono">
-              <a href="mailto:ingjaviergomez222@gmail.com">ingjaviergomez222@gmail.com</a><br />
+              <a href="mailto:ingjaviergomez222@gmail.com">ingjaviergomez222@gmail.com</a>
             </p>
           </div>
         </div>
@@ -96,111 +98,141 @@
     </section>
 
     <section id="proyectos" class="section">
-      <!-- Se dejÃ³ SOLO un encabezado de secciÃ³n (el que dice 4 casos) -->
       <div class="section__head">
         <h2>Proyectos</h2>
-        <p class="dim">5 casos bien contados valen mÃ¡s que 30 repos vacÃ­os.</p>
+        <p class="dim">Casos bien contados valen más que treinta repos vacíos.</p>
       </div>
 
-      <div class="grid">
-        <article class="card">
+      <div class="projects-grid">
+
+        <!-- FEATURED: El Camello -->
+        <article class="card card--featured" data-tilt>
+          <div class="card__shine"></div>
           <div class="card__body">
-            <p class="mono dim">CASE 01</p>
-            <h3>Web APP de AutodiagnÃ³stico EnergÃ©tico Interactivo (ISO 50001)</h3>
+            <div class="card__meta-row">
+              <p class="mono case-label">CASE 05 &mdash; IA AG&Eacute;NTICA</p>
+              <span class="badge badge--featured">FEATURED</span>
+            </div>
+            <h3>El Camello &mdash; Stack de 16 Agentes de IA</h3>
             <p class="dim">
-              Web app interactiva que permite a cualquier organizaciÃ³n evaluar en minutos su desempeÃ±o energÃ©tico,
-              descubrir oportunidades de ahorro y visualizar su punto de partida hacia un Sistema de GestiÃ³n de la
-              EnergÃ­a
-              alineado con ISO 50001.
+              Arquitectura de 16 Skills para Antigravity (Google DeepMind) organizada como una oficina de 5 pisos.
+              Cada agente ejecuta tareas complejas: documentos, dashboards, presentaciones, webapps y MCPs.
+              Orquestado por un agente PM con checkpoints de aprobación. Demuestra dominio práctico de IA agéntica,
+              prompting estructurado y diseño modular de agentes.
             </p>
-
+            <div class="tech-tags">
+              <span class="tech">Antigravity</span>
+              <span class="tech">Gemini API</span>
+              <span class="tech">React</span>
+              <span class="tech">MCP</span>
+              <span class="tech">Prompt Engineering</span>
+            </div>
             <div class="card__actions">
-              <a class="btn btn--small btn--ghost"
-                href="https://github.com/ingjaviergomezm/autodiagnostico-eficiencia-energetica" target="_blank"
+              <a class="btn btn--small btn--solid" href="https://ingjaviergomezm.github.io/el-camello/" target="_blank"
+                rel="noopener noreferrer">Demo interactiva</a>
+              <a class="btn btn--small btn--ghost" href="https://github.com/ingjaviergomezm/el-camello" target="_blank"
                 rel="noopener noreferrer">Repo</a>
+            </div>
+          </div>
+        </article>
 
+        <!-- Case 01 -->
+        <article class="card" data-tilt>
+          <div class="card__shine"></div>
+          <div class="card__body">
+            <p class="mono case-label">CASE 01</p>
+            <h3>Autodiagnóstico Energético Interactivo (ISO 50001)</h3>
+            <p class="dim">
+              Web app que permite a cualquier organización evaluar en minutos su desempeño energético,
+              descubrir oportunidades de ahorro y visualizar su punto de partida hacia ISO 50001.
+            </p>
+            <div class="tech-tags">
+              <span class="tech">HTML / CSS / JS</span>
+              <span class="tech">ISO 50001</span>
+              <span class="tech">Energía</span>
+            </div>
+            <div class="card__actions">
               <a class="btn btn--small btn--ghost"
                 href="https://ingjaviergomezm.github.io/autodiagnostico-eficiencia-energetica/" target="_blank"
                 rel="noopener noreferrer">Demo</a>
+              <a class="btn btn--small btn--ghost"
+                href="https://github.com/ingjaviergomezm/autodiagnostico-eficiencia-energetica" target="_blank"
+                rel="noopener noreferrer">Repo</a>
             </div>
           </div>
         </article>
 
-        <article class="card">
+        <!-- Case 02 -->
+        <article class="card" data-tilt>
+          <div class="card__shine"></div>
           <div class="card__body">
-            <p class="mono dim">CASE 02</p>
-            <h3>Dashboard Power BI</h3>
+            <p class="mono case-label">CASE 02</p>
+            <h3>Dashboard de Mantenimiento y Confiabilidad (ISO 14224)</h3>
             <p class="dim">
-              Dashboard de GestiÃ³n de Mantenimiento basado en la norma ISO 14224 para centralizar datos de mantenimiento
-              y
-              confiabilidad, monitorear el desempeÃ±o de activos y soportar decisiones orientadas a disponibilidad y
-              reducciÃ³n
-              de costos
+              Dashboard Power BI para centralizar datos de mantenimiento, monitorear desempeño de activos
+              y soportar decisiones orientadas a disponibilidad y reducción de costos.
             </p>
+            <div class="tech-tags">
+              <span class="tech">Power BI</span>
+              <span class="tech">ISO 14224</span>
+              <span class="tech">Confiabilidad</span>
+            </div>
             <div class="card__actions">
               <a class="btn btn--small btn--ghost"
                 href="https://github.com/ingjaviergomezm/dashboard_mantenimiento_y_confiabilidad_iso14224"
-                aria-disabled="true">Repo</a>
+                target="_blank" rel="noopener noreferrer">Repo</a>
             </div>
           </div>
         </article>
 
-        <article class="card">
+        <!-- Case 03 -->
+        <article class="card" data-tilt>
+          <div class="card__shine"></div>
           <div class="card__body">
-            <p class="mono dim">CASE 03</p>
-            <h3>AutomatizaciÃ³n VBA de reporte de novedades de nomina a RRHH</h3>
+            <p class="mono case-label">CASE 03</p>
+            <h3>Automatización VBA de Turnos y Nómina</h3>
             <p class="dim">
-              Herramienta en Microsoft Excel + VBA para programaciÃ³n mensual de turnos de 12 horas, cÃ¡lculo automÃ¡tico
-              de
-              recargos de nÃ³mina, anÃ¡lisis comparativo por trabajador, generaciÃ³n de reportes ejecutivos en PDF y
-              preparaciÃ³n
-              segura de archivos para distribuciÃ³n.
+              Herramienta Excel + VBA para programación mensual de turnos de 12 horas, cálculo automático
+              de recargos, análisis por trabajador y generación de reportes ejecutivos en PDF.
             </p>
+            <div class="tech-tags">
+              <span class="tech">Excel</span>
+              <span class="tech">VBA</span>
+              <span class="tech">RRHH</span>
+            </div>
             <div class="card__actions">
               <a class="btn btn--small btn--ghost"
                 href="https://github.com/ingjaviergomezm/Programacion_Calculo_Reporte_Divulgacion_de_Turnos_Automatizado_VBA"
-                aria-disabled="true">Repo</a>
+                target="_blank" rel="noopener noreferrer">Repo</a>
             </div>
           </div>
         </article>
 
-        <article class="card">
+        <!-- Case 04 -->
+        <article class="card" data-tilt>
+          <div class="card__shine"></div>
           <div class="card__body">
-            <p class="mono dim">CASE 04</p>
-            <h3>Web App â€” Planificador tÃ©cnico-financiero de proyectos solares con IA (Colombia)</h3>
+            <p class="mono case-label">CASE 04</p>
+            <h3>Planificador Solar con IA (Colombia)</h3>
             <p class="dim">
-              AplicaciÃ³n web para la evaluaciÃ³n tÃ©cnica, econÃ³mica y financiera de sistemas fotovoltaicos, incorporando
-              modelos de inteligencia artificial y supuestos normativos del mercado colombiano.
+              Aplicación web para evaluación técnica, económica y financiera de sistemas fotovoltaicos,
+              con modelos de IA y supuestos normativos del mercado colombiano.
             </p>
+            <div class="tech-tags">
+              <span class="tech">Python</span>
+              <span class="tech">IA</span>
+              <span class="tech">Energía Solar</span>
+              <span class="tech">Vercel</span>
+            </div>
             <div class="card__actions">
-              <a class="btn btn--small btn--ghost" href="https://github.com/ingjaviergomezm/solar-project-planner"
-                target="_blank" rel="noopener noreferrer">Repo</a>
               <a class="btn btn--small btn--ghost" href="https://solar-project-planner.vercel.app/" target="_blank"
                 rel="noopener noreferrer">Demo</a>
+              <a class="btn btn--small btn--ghost" href="https://github.com/ingjaviergomezm/solar-project-planner"
+                target="_blank" rel="noopener noreferrer">Repo</a>
             </div>
           </div>
         </article>
 
-        <article class="card">
-          <div class="card__body">
-            <p class="mono dim">CASE 05 &mdash; IA AG&Eacute;NTICA</p>
-            <h3>El Camello &mdash; Stack de 16 Agentes de IA Especializados</h3>
-            <p class="dim">
-              Sistema de agentes de IA organizados como una oficina corporativa de 5 pisos, donde cada
-              &ldquo;empleado&rdquo; ejecuta tareas profesionales complejas: generaci&oacute;n de documentos,
-              dashboards, presentaciones, dise&ntilde;o, testing y construcci&oacute;n de MCPs. Orquestados
-              por un agente PM que coordina flujos multi-skill con checkpoints de aprobaci&oacute;n.
-              Demuestra dominio pr&aacute;ctico de IA ag&eacute;ntica, prompting estructurado y
-              arquitecturas de Skills para Antigravity (Google DeepMind).
-            </p>
-            <div class="card__actions">
-              <a class="btn btn--small btn--ghost" href="https://github.com/ingjaviergomezm/el-camello" target="_blank"
-                rel="noopener noreferrer">Repo</a>
-              <a class="btn btn--small btn--ghost" href="https://ingjaviergomezm.github.io/el-camello/" target="_blank"
-                rel="noopener noreferrer">Demo interactiva</a>
-            </div>
-          </div>
-        </article>
       </div>
     </section>
 
@@ -209,7 +241,6 @@
         <h2>Stack</h2>
         <p class="dim">Herramientas que uso para producir resultados, no para coleccionar logos.</p>
       </div>
-
       <div class="pillbox">
         <span class="pill">Python</span>
         <span class="pill">SQL</span>
@@ -218,62 +249,75 @@
         <span class="pill">VBA</span>
         <span class="pill">Visual Basic</span>
         <span class="pill">Modelado</span>
-        <span class="pill">Eficiencia energ&eacute;tica</span>
+        <span class="pill">Eficiencia energética</span>
         <span class="pill">Renovables</span>
-        <span class="pill">IA Ag&eacute;ntica</span>
-        <span class="pill">Antigravity</span>
-        <span class="pill">Gemini API</span>
+        <span class="pill pill--accent">IA Agéntica</span>
+        <span class="pill pill--accent">Antigravity</span>
+        <span class="pill pill--accent">Gemini API</span>
       </div>
     </section>
 
     <section id="roadmap" class="section">
       <div class="section__head">
         <h2>Roadmap</h2>
-        <p class="dim">IA aplicada con mentalidad de ingenierÃ­a: medir â†’ validar â†’ decidir.</p>
+        <p class="dim">IA aplicada con mentalidad de ingeniería: medir &rarr; validar &rarr; decidir.</p>
       </div>
-
       <div class="timeline">
-        <!-- Se dejÃ³ SOLO la versiÃ³n correcta (4 proyectos) y se removiÃ³ el duplicado -->
+        <div class="tl__item tl__item--done">
+          <div class="tl__badge">✓</div>
+          <div class="tl__content">
+            <h3>IA Agéntica — El Camello</h3>
+            <p class="dim">16 Skills con orquestación multi-agente y demo interactiva. <a
+                href="https://ingjaviergomezm.github.io/el-camello/" target="_blank">Ver demo →</a></p>
+          </div>
+        </div>
         <div class="tl__item">
           <div class="tl__badge">01</div>
           <div class="tl__content">
-            <h3>Portafolio de casos</h3>
-            <p class="dim">4 proyectos end-to-end: problema real â†’ datos â†’ modelo â†’ insight â†’ acciÃ³n.</p>
+            <h3>Portafolio de casos end-to-end</h3>
+            <p class="dim">Problema real &rarr; datos &rarr; modelo &rarr; insight &rarr; acción.</p>
           </div>
         </div>
-
         <div class="tl__item">
           <div class="tl__badge">02</div>
           <div class="tl__content">
-            <h3>AutomatizaciÃ³n y calidad de datos</h3>
-            <p class="dim">Pipelines simples (pero sÃ³lidos) + documentaciÃ³n + trazabilidad.</p>
+            <h3>Automatización y calidad de datos</h3>
+            <p class="dim">Pipelines sólidos + documentación + trazabilidad.</p>
           </div>
         </div>
-
         <div class="tl__item">
           <div class="tl__badge">03</div>
           <div class="tl__content">
-            <h3>Entrega y comunicaciÃ³n</h3>
+            <h3>Entrega y comunicación</h3>
             <p class="dim">Dashboards + reportes ejecutivos + repos reproducibles.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contacto" class="section">
+    <section id="contacto" class="section section--last">
       <div class="section__head">
         <h2>Contacto</h2>
-        <p class="dim">Si el problema huele a datos y a operaciÃ³n, me interesa.</p>
+        <p class="dim">Si el problema huele a datos y a operación, me interesa.</p>
       </div>
-
-      <div class="card">
+      <div class="card contact-card" data-tilt>
+        <div class="card__shine"></div>
         <div class="card__body">
           <p class="mono dim">EMAIL</p>
           <p class="mono">
-            <a href="mailto:ingjaviergomez222@gmail.com">
-              ingjaviergomez222@gmail.com
-            </a>
+            <a href="mailto:ingjaviergomez222@gmail.com">ingjaviergomez222@gmail.com</a>
+          </p>
+          <div class="divider"></div>
+          <p class="mono dim">GITHUB</p>
+          <p class="mono">
+            <a href="https://github.com/ingjaviergomezm" target="_blank" rel="noreferrer">github.com/ingjaviergomezm</a>
           </p>
         </div>
       </div>
     </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
